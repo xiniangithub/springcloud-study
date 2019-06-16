@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wez.springcloud</groupId>
 	<artifactId>microservicecloud</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -92,5 +92,7 @@
 		<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
 		<module>microservicecloud-eureka-7001</module>
+		<module>microservicecloud-eureka-7002</module>
+		<module>microservicecloud-eureka-7003</module>
 	</modules>
 </project>
