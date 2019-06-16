@@ -3,3 +3,6 @@ v1.0.0
 
 v1.0.1
 	SpringCloud Eureka单机
+
+v1.0.2
+	SpringCloud Eureka集群
