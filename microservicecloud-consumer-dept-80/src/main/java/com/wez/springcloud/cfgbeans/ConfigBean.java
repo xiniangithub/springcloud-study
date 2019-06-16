@@ -13,7 +13,7 @@ import com.netflix.loadbalancer.RoundRobinRule;
 public class ConfigBean {
 
 	@Bean
-	@LoadBalanced // Ribbon负载均衡，默认是轮询
+	@LoadBalanced // Ribbon负载均衡，默认是轮询 
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
