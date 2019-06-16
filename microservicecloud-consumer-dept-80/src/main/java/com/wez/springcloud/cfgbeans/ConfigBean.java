@@ -18,11 +18,11 @@ public class ConfigBean {
 		return new RestTemplate();
 	}
 	
-	// 设置轮询策略。（使用Ribbon提供的负载均衡策略）
-	@Bean
+	// 设置负载均衡策略。（使用Ribbon提供的负载均衡策略）
+	/*@Bean
 	public IRule loadRalancedRule() {
 //		return new RoundRobinRule(); // 轮询策略，默认的。
 		return new RandomRule(); // 随机策略
-	}
+	}*/
 	
 }
