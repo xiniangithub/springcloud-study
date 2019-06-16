@@ -9,7 +9,7 @@ import com.netflix.loadbalancer.Server;
 
 /**
  * 自定义负载均衡策略类: 每个微服务被调用5次
- * @author Admin
+ * @author Admin 
  *
  */
 public class RoundFiveRule extends AbstractLoadBalancerRule {
