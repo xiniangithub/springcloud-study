@@ -13,3 +13,4 @@ v1.0.3
 v1.0.4
 	SpringCloud Ribbon设置负载均衡策略
 		使用Ribbon自带的负载均衡策略。
+		设置Ribbon使用自定义负载均衡策略。
