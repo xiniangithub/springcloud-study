@@ -9,7 +9,7 @@ import com.wez.ribbon.rule.RoundFiveRule;
 
 @SpringBootApplication
 @EnableEurekaClient
-@RibbonClient(name="MICROSERVICECLOUD-DEPT",configuration=RoundFiveRule.class) // 设置Ribbon使用自定义负载均衡策略
+@RibbonClient(name="MICROSERVICECLOUD-DEPT",configuration=RoundFiveRule.class) // 设置Ribbon使用自定义负载均衡策略 
 public class DeptConsumer80_APP {
 
 	public static void main(String[] args) {
