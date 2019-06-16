@@ -13,7 +13,9 @@ import com.wez.springcloud.entities.Dept;
 @RestController
 public class DeptController_Consumer {
 
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
+//	private static final String REST_URL_PREFIX = "http://localhost:8001";
+	// 使用微服务名称访问微服务
+	private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
 	@Autowired
 	private RestTemplate restTemplate;

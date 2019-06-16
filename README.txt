@@ -6,3 +6,6 @@ v1.0.1
 
 v1.0.2
 	SpringCloud Eureka集群
+
+v1.0.3
+	SpringCloud Ribbon负载均衡
