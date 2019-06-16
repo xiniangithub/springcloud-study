@@ -9,3 +9,7 @@ v1.0.2
 
 v1.0.3
 	SpringCloud Ribbon负载均衡
+
+v1.0.4
+	SpringCloud Ribbon设置负载均衡策略
+		使用Ribbon自带的负载均衡策略。
