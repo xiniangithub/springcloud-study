@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wez.springcloud</groupId>
 	<artifactId>microservicecloud</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.0.7-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -99,5 +99,6 @@
 		<module>microservicecloud-consumer-dept-feign</module>
 		<module>microservicecloud-provider-dept-hystrix-8001</module>
 		<module>microservicecloud-consumer-hystrix-dashboard</module>
+		<module>microservicecloud-zuul-gateway-9527</module>
 	</modules>
 </project>
