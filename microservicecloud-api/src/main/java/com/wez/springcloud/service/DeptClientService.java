@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.wez.springcloud.entities.Dept;
 
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+// Hystrix fallbackFactory： 服务降级处理
+@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory=DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
