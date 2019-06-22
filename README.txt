@@ -20,3 +20,8 @@ v1.0.5
 
 v1.0.6
 	SpringCloud Hystrix服务熔断、服务降级、服务监控
+
+v1.0.7
+	SpringCloud Zull路由网关
+
+
