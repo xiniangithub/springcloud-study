@@ -19,4 +19,4 @@ v1.0.5
 	SpringCloud Feign负载均衡
 
 v1.0.6
-	SpringCloud Hystrix服务熔断
+	SpringCloud Hystrix服务熔断、服务降级、服务监控
