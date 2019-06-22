@@ -39,5 +39,13 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
+		<!-- 
+			maven打包报错：程序包feign.hystrix不存在
+			解决：添加该jar包的maven坐标，手动导入
+		 -->
+		<dependency>
+			<groupId>io.github.openfeign</groupId>
+			<artifactId>feign-hystrix</artifactId>
+		</dependency>
 	</dependencies>
 </project>
